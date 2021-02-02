@@ -146,7 +146,7 @@ template {
 a {
     background-color: transparent;
     text-decoration: none;
-    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur), auto
+/*     cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur), auto */
 }
 
 a:active,
@@ -155,7 +155,7 @@ a:hover {
 }
 
 a:active {
-    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/work.cur), alias
+/*     cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/work.cur), alias */
 }
 
 abbr[title] {
@@ -338,7 +338,7 @@ h6 {
 
 p {
     margin-bottom: 1.5em;
-    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/texto.cur), auto
+/*     cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/texto.cur), auto */
 }
 
 cite,
@@ -434,7 +434,7 @@ html {
 body {
     background: #fff;
     background-attachment: fixed;
-    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto
+/*     cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto */
 }
 
 blockquote:after,
@@ -692,9 +692,9 @@ a:hover {
     opacity: 1
 }
 
-.loadvideo,
+/* .loadvideo,
 .video-play {
-    background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/play@32x32.png)
+/*     background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/play@32x32.png) */
 }
 
 .video-pause {
@@ -705,7 +705,7 @@ a:hover {
     background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/add@32x32.png);
     bottom: 45px;
     display: none
-}
+} */
 
 .video-stu {
     position: absolute;
@@ -1819,20 +1819,20 @@ h1.page-title {
     margin-top: 100px
 }
 
-.cd-top {
+/* .cd-top {
     position: fixed;
     right: 25px;
     top: -900px;
     z-index: 99;
     width: 70px;
     height: 900px;
-    background: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/scroll.png) no-repeat center;
+/*     background: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/scroll.png) no-repeat center; */
     background-size: contain;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/No_Disponible.cur), auto;
+/*     cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/No_Disponible.cur), auto; */
     opacity: 1
-}
+} */
 
 .cd-top.cd-is-visible {
     opacity: 1;
@@ -1857,7 +1857,7 @@ h1.page-title {
     text-align: center
 }
 
-@media screen and (max-width:860px) {
+/* @media screen and (max-width:860px) {
     .cd-top {
         display: none;
         height: 60px;
@@ -1867,9 +1867,9 @@ h1.page-title {
         height: 10px;
         width: 50px
     }
-}
+} */
 
-#moblieGoTop {
+/* #moblieGoTop {
     display: none;
     position: fixed;
     bottom: 10px;
@@ -1890,7 +1890,7 @@ h1.page-title {
 #moblieGoTop:hover {
     background-color: #fff;
     opacity: .8
-}
+} */
 
 .post-footer {
     padding: 20px 0;
@@ -2609,10 +2609,10 @@ h3#comments-list-title {
     cursor: -webkit-zoom-out
 }
 
-#baguetteBox-overlay .full-image figcaption,
+/* #baguetteBox-overlay .full-image figcaption,
 #baguetteBox-overlay .full-image img {
     cursor: auto
-}
+} */
 
 .clear:after,
 .clear:before,
