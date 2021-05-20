@@ -65,12 +65,12 @@ var other = function() {
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "主修的软件开发专业，目前大二"
+            content: "计算机专业，目前大二"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1500,
-            content: "略懂HTML/CSS/JavaScript/PHP"
+            content: "略懂HTML/CSS/JavaScript/PHP/VueCLI"
         })
     }).then(function() {
         return botui.message.bot({
